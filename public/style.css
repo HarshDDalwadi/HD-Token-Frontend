@@ -1,0 +1,33 @@
+#root{
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	background-size: 100%;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #153C4E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

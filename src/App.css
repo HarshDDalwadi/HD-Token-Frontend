@@ -1,0 +1,65 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	font-size:23px;
+}
+
+.input1 {
+	font-size: 23px;
+	width: 600px;
+	height: 30px;
+	padding: 10px;
+	border-radius:40px;
+	border:2px solid black;
+}
+
+.buttonOne {
+	width: 250px;
+	height: 40px;
+	font-size: 23px;
+	padding: 5px;
+	border-radius:40px;
+}
+
+.all {
+	margin: 10px;
+}
+
+.lastDiv {
+	margin: 10px;
+}
+
+.buttonFour {
+	width: 160px;
+	height: 40px;
+	font-size: 23px;
+	padding: 5px;
+	margin-left:10px;
+	border-radius: 40px;
+}
+
+.inputTwo {
+	font-size: 23px;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	border-radius:40px;
+	border:2px solid black;
+}
+
+input:focus{
+	background-color: antiquewhite;
+	border:2px solid black;
+}
+
+button:hover{
+	background-color: antiquewhite;
+}
+
+.loadingDiv{
+	color:red;
+}
